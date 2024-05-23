@@ -8,9 +8,10 @@ sd(tabla$Edad.jefe.a.del.hogar)
 var(tabla$Edad.jefe.a.del.hogar)
 
 hist(tabla$Edad.jefe.a.del.hogar, main = "Histograma de edades",
-     xlab = "Edad del jefe del hogar", ylab="Frecuencia")
+     xlab = "Edad del jefe del hogar", ylab="Frecuencia",
+     col = "lightblue")
 
-boxplot(tabla$Edad.jefe.a.del.hogar)
+# boxplot(tabla$Edad.jefe.a.del.hogar)
 
 summary(tabla$X.De.qué.forma.obtiene.el.agua.dentro.de.su.vivienda.)
 
